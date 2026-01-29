@@ -1,4 +1,78 @@
-# 💸 App de Finanças Pessoais do Venilton com Vibe Coding
+# 💸 App de Finanças Pessoais do DIO-caixa com Vibe Coding
+
+Pdr criado no copilot
+
+# Product Requirements Document (PRD)
+
+## 1. Contexto
+O aplicativo de Organização de Finanças Pessoais tem como objetivo simplificar o controle financeiro por meio de conversas em linguagem natural.  
+O diferencial competitivo está na experiência conversacional, que substitui formulários e planilhas complexas por interações simples e personalizadas.
+
+## 2. Problema
+Muitas pessoas desistem de controlar seus gastos porque os aplicativos atuais exigem entradas manuais extensas e oferecem pouca personalização.  
+Isso gera frustração e falta de engajamento, levando ao descontrole financeiro e, em alguns casos, ao endividamento.
+
+## 3. Público-Alvo
+- Jovens adultos iniciando sua vida financeira  
+- Pessoas sem experiência prévia com planilhas ou apps de finanças  
+- Usuários que buscam praticidade e linguagem acessível  
+
+## 4. Funcionalidades-Chave
+1. **Registrar gastos via chat em linguagem natural**  
+   - Exemplo: "gastei 50 reais no mercado" → registro automático  
+
+2. **Classificação automática de transações**  
+   - Exemplo: "mercado" → categoria "alimentação"  
+
+3. **Definição e acompanhamento de metas financeiras**  
+   - Exemplo: "quero economizar 200 reais por mês" → acompanhamento automático  
+
+4. **Agente Financeiro com dicas de economia**  
+   - Exemplo: "Você gastou 20% a mais em restaurantes este mês. Que tal cozinhar mais em casa?"  
+
+5. **Relatórios simples e personalizados**  
+   - Gráficos básicos mostrando gastos por categoria e evolução das metas  
+
+## 5. Requisitos Não Funcionais
+- **Performance:** respostas rápidas no chat  
+- **Segurança:** criptografia de dados e proteção de informações pessoais  
+- **Usabilidade:** interface acessível e intuitiva  
+- **Compatibilidade:** funcionamento em dispositivos móveis (iOS e Android)  
+
+## 6. Dependências
+- Integração com serviços de NLP para interpretação de linguagem natural  
+- Banco de dados para armazenamento de transações  
+- Biblioteca de gráficos para relatórios  
+
+## 7. Cronograma e Marcos
+- Semana 1-2: Design das telas principais  
+- Semana 3-4: Implementação do chat e registro de gastos  
+- Semana 5-6: Classificação automática e metas financeiras  
+- Semana 7-8: Relatórios e dicas do Agente Financeiro  
+- Semana 9: Testes com usuários iniciais  
+
+## 8. Métricas de Sucesso
+- Taxa de engajamento no chat  
+- Número de transações registradas por usuário  
+- Percentual de usuários que definem metas financeiras  
+- Feedback positivo sobre clareza dos relatórios  
+
+## 9. Entregável da IA (MVP)
+**Principais telas:**  
+- Tela de chat (entrada de gastos e interação com agente)  
+- Tela de metas (definição e acompanhamento)  
+- Tela de relatórios (gráficos simples)  
+
+**Recursos necessários:**  
+- NLP para interpretar mensagens  
+- Motor de categorização automática  
+- Banco de dados simples  
+- Módulo de relatórios  
+
+**Validação inicial:**  
+- Testes com 10–20 usuários iniciantes  
+- Medir facilidade de uso, engajamento e clareza dos relatórios  
+- Ajustar feedback antes de expandir funcionalidades  
 
 Este projeto foi desenvolvido como um Desafio de Projeto da DIO de Vibe Coding utilizando o Lovable e o Copilot Web. A proposta é criar um aplicativo de organização financeira pessoal baseado em interações em linguagem natural.
 
@@ -59,7 +133,7 @@ Gerar um plano de MVP contendo:
 ## 🎯 Resultado Final
 
 Acesse o protótipo funcional no Lovable:  
-**[conversa-fin-amigo.lovable.app](https://conversa-fin-amigo.lovable.app/)**
+**[https://lovable.dev/projects/f49ded3c-3de3-4026-af4c-e0866d589655)**
 
 <img width="1920" height="945" alt="image" src="https://github.com/user-attachments/assets/88ef611d-970e-4377-918a-918714311218" />
 
@@ -104,10 +178,10 @@ Acesse o protótipo funcional no Lovable:
 ## 🧠 Reflexão
 
 ### O que funcionou bem?  
-O refinamento do PRD previamente feito no Copilot ajudou muito, pois os créditos do Lovable acabaram em apenas 3 interações.
+O refinamento do PRD previamente feito no Copilot ajudou muito, pois os créditos do Lovable acabaram em apenas 4 interações.
 
 ### O que não funcionou como o esperado?  
 Esperava poder interagir mais vezes gratuitamente com o Lovable, mas as interações feitas já foram de grande valia para aprender mais sobre Vibe Coding.
 
 ### O que aprendi sobre conversar com IAs?  
-Aprendi que é basicamente igual a conversar com uma pessoa: quanto mais detalhes e clareza você dá, melhor é a interação.
+Aprendi que é basicamente igual a conversar com uma pessoa: quanto mais detalhes e clareza você dá, melhor é a interação e respostas aos prompts.
